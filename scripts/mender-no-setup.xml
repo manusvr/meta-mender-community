@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <manifest>
+
+  <remote fetch="https://github.com/TheYoctoJester" name="mender"/>
+  <remote fetch="https://github.com/manusvr" name="manus"/>
+
+  <project name="meta-mender" remote="mender" revision="scarthgap" path="sources/meta-mender"/>
+  <project name="meta-mender-community" remote="manus" revision="scarthgap" path="sources/meta-mender-community">
+  </project>
+
+  </manifest>

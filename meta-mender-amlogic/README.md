@@ -11,7 +11,7 @@ Download the source:
     $ mkdir mender-amlogic
     $ cd mender-amlogic
     $ repo init \
-           -u https://github.com/mendersoftware/meta-mender-community \
+           -u https://github.com/manusvr/meta-mender-community \
            -m meta-mender-amlogic/scripts/manifest-amlogic.xml \
            -b scarthgap
     $ repo sync
